@@ -1,0 +1,6 @@
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Was ist \LaTeX ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Geschichte von T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ und \LaTeX }{7}{0}{2}
+\beamer@sectionintoc {3}{WYSIWYG vs WYSIWYAF}{9}{0}{3}
+\beamer@sectionintoc {4}{Aufbau eines Dokumentes}{10}{0}{4}
+\beamer@sectionintoc {5}{Weiterf\"uhrendes}{16}{0}{5}

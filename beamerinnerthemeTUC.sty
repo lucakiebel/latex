@@ -1,0 +1,60 @@
+% Copyright 2005 by D. Wäsch, Institut für Mathematik, TU Clausthal
+
+\defbeamertemplate*{title page}{TUC}[1][]
+{
+  \vbox{}
+  \begin{beamercolorbox}[left,#1]{title}
+    \usebeamerfont{title}\inserttitle\par%
+    \ifx\insertsubtitle\@empty%
+    \else%
+      \vskip0.25em%
+      {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+    \fi%
+  \end{beamercolorbox}%
+  \vskip1em\par
+  \begin{beamercolorbox}[left,#1]{author}
+    \usebeamerfont{author}\insertauthor{,}
+    \usebeamerfont{institute}\insertinstitute
+  \end{beamercolorbox}
+  \begin{beamercolorbox}[left,#1]{date}
+    \usebeamerfont{date}\insertdate
+  \end{beamercolorbox}\vskip0.5em
+  {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+  \vfill
+}
+
+
+% Frame title: TUC
+
+\defbeamertemplate*{frametitle}{TUC}[1][left]
+{\usebeamerfont{frametitle}\insertframetitle\par}
+
+\def\beamer@fteright{\vskip0.35cm\advance\leftskip by 1.7cm\advance\rightskip by1.7cm}
+
+% Itemize items, TUC
+    % org
+%\labelwidth2ex
+%\labelsep4ex
+%\leftmargini6ex
+%\leftmarginii3ex
+%\leftmarginiii3ex
+%
+%\defbeamertemplate*{itemize item}{TUC}{\rule[0.3ex]{0.7ex}{0.7ex}\hspace*{0.8ex}}
+%\defbeamertemplate*{itemize subitem}{TUC}{--\hspace*{-3ex}}
+%\defbeamertemplate*{itemize subsubitem}{TUC}{--\hspace*{-3ex}}
+
+%\labelwidth2ex
+%\labelsep1ex
+\leftmargini2.0ex
+%\leftmarginii3ex
+%\leftmarginiii3ex
+
+%\defbeamertemplate*{itemize item}{TUC}{\rule[0.4ex]{0.7ex}{0.7ex}\hspace*{1.0ex}}
+\defbeamertemplate*{itemize item}{TUC}{\rule[0.4ex]{0.7ex}{0.7ex}}
+\defbeamertemplate*{itemize subitem}{TUC}{--}
+\defbeamertemplate*{itemize subsubitem}{TUC}{--}
+
+%\defbeamertemplate*{enumerate item}{TUC}{\arabic}
+
+
+\mode<all>
